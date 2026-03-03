@@ -4,16 +4,12 @@ ods results clear;
 ods _all_ close;
 ods html;
 
-/*Database*/
-libname raw "D:\SAS\free area code\01rawdata"; 
+/*library*/
+libname raw "D:\SAS\AML\01rawdata"; 
+libname clean "D:\SAS\AML\02clean"; 
+libname merge "D:\SAS\AML\03merge"; 
 
-
-proc print data=raw.aml(obs=5);
+/*check data*/
+proc contents data=raw.aml;
 run;
-
-proc print data=raw.aml(obs=10);
-run;
-
-
-
 
