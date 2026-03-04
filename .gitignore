@@ -12,8 +12,8 @@ tf_env_python3.10/
 venv/
 env/
 
-#=======(pycache)==============================
-__pycache__/
-*.py[cod]
+#========(files)
+*NHIRD_IRB_separate.pdf
+
 
 #note: (1)在資料夾後，加上"/" (2)或在檔案前，加上"*"
